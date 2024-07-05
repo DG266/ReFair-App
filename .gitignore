@@ -1,2 +1,4 @@
 llama3-finetuning/.venv/
-llama3-finetuning/Meta-Llama-3-8B-Instruct/
+llama3-finetuning/*.csv
+llama3-finetuning/*.xlsx
+llama3-finetuning/*.json
