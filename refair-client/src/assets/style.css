@@ -10,6 +10,10 @@
   --vt-c-red: #db3131;
   --vt-c-red-dark-1: #d81b1b;
   --vt-c-red-dark-2: #c21818;
+
+  --vt-c-blue: #5091cb;
+  --vt-c-blue-dark-1: #578cbb;
+  --vt-c-blue-dark-2: #4e7ea8;
 }
 
 .button {
@@ -68,6 +72,18 @@
 
 .analyze:active {
   background-color: var(--vt-c-indigo-dark-2);
+}
+
+.close {
+  background: var(--vt-c-blue);
+}
+
+.close:hover {
+  background-color: var(--vt-c-blue-dark-1);
+}
+
+.close:active {
+  background-color: var(--vt-c-blue-dark-2);
 }
 
 .button__icon {

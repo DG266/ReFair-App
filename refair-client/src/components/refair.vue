@@ -119,20 +119,26 @@
             <div>
               <button
                 type="button"
-                class="btn btn-danger"
+                class="button close"
                 data-dismiss="modal"
                 @click="closeAnalyzeStoryModal"
                 style="margin-right: 10px"
               >
-                Close
+                <span class="button__text">Close</span>
+                <span class="button__icon"
+                  ><ion-icon name="close-circle-outline"></ion-icon
+                ></span>
               </button>
               <button
                 v-on:click="reportStory()"
                 type="button"
-                class="btn btn-success btn-md"
+                class="button report"
                 id="report"
               >
-                Report
+                <span class="button__text">Report</span>
+                <span class="button__icon"
+                  ><ion-icon name="code-slash-outline"></ion-icon
+                ></span>
               </button>
             </div>
           </div>
