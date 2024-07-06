@@ -1,0 +1,76 @@
+:root {
+  --vt-c-indigo: #566472;
+  --vt-c-indigo-dark-1: #415161;
+  --vt-c-indigo-dark-2: #2c3e50;
+
+  --vt-c-green: #009578;
+  --vt-c-green-dark-1: #008168;
+  --vt-c-green-dark-2: #006e58;
+
+  --vt-c-red: #db3131;
+  --vt-c-red-dark-1: #d81b1b;
+  --vt-c-red-dark-2: #c21818;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  height: 100%;
+}
+
+.report {
+  background: var(--vt-c-red);
+}
+
+.report:hover {
+  background-color: var(--vt-c-red-dark-1);
+}
+
+.report:active {
+  background-color: var(--vt-c-red-dark-2);
+}
+
+.load {
+  background: var(--vt-c-green);
+}
+
+.load:hover {
+  background-color: var(--vt-c-green-dark-1);
+}
+
+.load:active {
+  background-color: var(--vt-c-green-dark-2);
+}
+
+.analyze {
+  background: var(--vt-c-indigo);
+}
+
+.analyze:hover {
+  background-color: var(--vt-c-indigo-dark-1);
+}
+
+.analyze:active {
+  background-color: var(--vt-c-indigo-dark-2);
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.08);
+}
