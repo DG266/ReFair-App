@@ -42,12 +42,8 @@
                 class="form-control"
                 @change="handleStoriesUpload($event)"
               />
-              <label for="file" class="custom-file-upload">
-                Seleziona file
-              </label>
-              <span id="file-name" class="file-name"
-                >Nessun file selezionato</span
-              >
+              <label for="file" class="custom-file-upload"> Select file </label>
+              <span id="file-name" class="file-name">No file Selected</span>
             </div>
             <div>
               <button
