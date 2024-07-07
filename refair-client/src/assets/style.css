@@ -14,6 +14,10 @@
   --vt-c-blue: #5091cb;
   --vt-c-blue-dark-1: #578cbb;
   --vt-c-blue-dark-2: #4e7ea8;
+
+  --vt-c-sky: #7cb4d5;
+  --vt-c-sky-dark-1: #8bb4cb;
+  --vt-c-sky-dark-2: #6fa2bf;
 }
 
 .button {
@@ -38,6 +42,8 @@
   height: 100%;
 }
 
+/* Report button */
+
 .report {
   background: var(--vt-c-red);
 }
@@ -49,6 +55,8 @@
 .report:active {
   background-color: var(--vt-c-red-dark-2);
 }
+
+/* Load button */
 
 .load {
   background: var(--vt-c-green);
@@ -62,6 +70,8 @@
   background-color: var(--vt-c-green-dark-2);
 }
 
+/* Analyze button */
+
 .analyze {
   background: var(--vt-c-indigo);
 }
@@ -74,6 +84,8 @@
   background-color: var(--vt-c-indigo-dark-2);
 }
 
+/* Close Button */
+
 .close {
   background: var(--vt-c-blue);
 }
@@ -84,6 +96,20 @@
 
 .close:active {
   background-color: var(--vt-c-blue-dark-2);
+}
+
+/* Select Button */
+
+.select {
+  background: var(--vt-c-sky);
+}
+
+.select:hover {
+  background-color: var(--vt-c-sky-dark-1);
+}
+
+.select:active {
+  background-color: var(--vt-c-sky-dark-2);
 }
 
 .button__icon {
@@ -98,29 +124,6 @@
 
 .form-control {
   display: none; /* Hides the original input file */
-}
-
-.custom-file-upload {
-  display: inline-block;
-  padding: 8px 30px;
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
-  border-radius: 5px;
-  border: 1px solid #007bff;
-  transition: background-color 0.3s, border-color 0.3s;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.custom-file-upload:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
-
-.custom-file-upload:active {
-  background-color: #004494;
-  border-color: #004494;
 }
 
 .file-name {

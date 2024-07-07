@@ -375,7 +375,7 @@ function handleStoriesUpload(event) {
   if (file) {
     fileNameElement.textContent = file.name;
   } else {
-    fileNameElement.textContent = "Nessun file selezionato";
+    fileNameElement.textContent = "No file selected";
   }
 }
 
