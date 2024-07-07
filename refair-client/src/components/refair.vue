@@ -42,7 +42,14 @@
                 class="form-control"
                 @change="handleStoriesUpload($event)"
               />
-              <label for="file" class="custom-file-upload"> Select file </label>
+              <!---->
+              <button type="button" class="button select">
+                <label for="file" class="button__text"> Select file </label>
+                <span class="button__icon"
+                  ><ion-icon name="document-attach-outline"></ion-icon
+                ></span>
+              </button>
+              <!---->
               <span id="file-name" class="file-name">No file Selected</span>
             </div>
             <div>
