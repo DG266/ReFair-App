@@ -35,12 +35,19 @@
             role="toolbar"
             aria-label="Toolbar with button groups"
           >
-            <div>
+            <div class="file-upload">
               <input
                 type="file"
+                id="file"
                 class="form-control"
                 @change="handleStoriesUpload($event)"
               />
+              <label for="file" class="custom-file-upload">
+                Seleziona file
+              </label>
+              <span id="file-name" class="file-name"
+                >Nessun file selezionato</span
+              >
             </div>
             <div>
               <button
@@ -355,4 +362,23 @@ export default {
     },
   },
 };
+
+//Function needed to show the loaded file name
+function handleStoriesUpload(event) {
+  const fileInput = event.target;
+  const fileNameElement = document.getElementById("file-name");
+  const file = fileInput.files[0];
+
+  if (file) {
+    fileNameElement.textContent = file.name;
+  } else {
+    fileNameElement.textContent = "Nessun file selezionato";
+  }
+}
+
+// Assicurati che il DOM sia caricato prima di aggiungere l'evento
+document.addEventListener("DOMContentLoaded", () => {
+  const fileInput = document.querySelector(".form-control");
+  fileInput.addEventListener("change", handleStoriesUpload);
+});
 </script>

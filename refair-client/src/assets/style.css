@@ -90,3 +90,38 @@
   font-size: 1.5em;
   background-color: rgba(0, 0, 0, 0.08);
 }
+
+.file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.form-control {
+  display: none; /* Hides the original input file */
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.custom-file-upload:active {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.file-name {
+  margin-left: 10px;
+  font-style: italic;
+}
