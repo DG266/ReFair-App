@@ -1,0 +1,19 @@
+The prompt provided is:
+
+"[High-level machine learning task] OR [Low-level machine learning technique] in the 
+field of [machine learning] OR [natural language processing]. The example is: 
+“Example US number 1 in the domain type X”.
+
+[High-level machine learning task] OR [Low-level machine learning technique] in the 
+field of [machine learning] OR [natural language processing]. The 
+example is: “Example US number 2 in the domain type Y”.
+
+[High-level machine learning task] OR [Low-level machine learning technique] in the 
+field of [machine learning] OR [natural language processing]. The example is: 
+“Example US number 3 in the domain type X”.
+
+Considering the following: [High-level machine learning task] OR [Low-level 
+machine learning technique] in the field of [machine learning] OR [natural language processing]. 
+Can you provide me with [number of US to generate] specific user stories 
+for the [Domain type X] domain based on the above examples that I provided?" 
+
