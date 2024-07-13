@@ -1,0 +1,7 @@
+The prompt provided is:
+
+"Q: Create 5 User Stories with [High-level machine learning task] OR 
+[Low-level machine learning technique] in the field of [machine learning] 
+OR [natural language processing] in the [Domain type X] domain. Follow the 
+User Story structure in which the [Subject(s) of the domain X] is the subject. 
+Let's think step by step..."

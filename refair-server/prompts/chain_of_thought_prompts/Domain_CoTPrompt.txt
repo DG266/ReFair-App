@@ -1,0 +1,10 @@
+The prompt provided is:
+
+"Q: Create an US with [High-level machine learning task] OR [Low-level machine learning technique] 
+in the field of [machine learning] OR [natural language processing] in the [Domain type Y] domain.
+
+A: [reasoning steps based on the question]. The user story can be:
+[Example of the third US in the domain type Y].
+
+Q: Create 5 US with [High-level machine learning task] OR [Low-level machine learning technique] 
+in the field of [machine learning] OR [natural language processing] in the [Domain type X] domain."
