@@ -1,0 +1,13 @@
+The prompt provided is:
+
+""Example US number 1" 
+"Example US number 2" 
+"Example US number 3" 
+
+Following the structure of the examples, generate a new user story
+ in the [Relevant Domain] domain. Use only the first person. 
+ The user story has to be only one phrase and at most 3 lines long. 
+ In the user story has to be used the [High-level machine learning task] 
+ OR [Low-level machine learning technique] technique."
+
+

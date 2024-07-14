@@ -2,3 +2,4 @@ llama3-finetuning/.venv/
 llama3-finetuning/*.csv
 llama3-finetuning/*.xlsx
 llama3-finetuning/*.json
+refair-server/models/glove.6B.100d.txt
