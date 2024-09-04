@@ -2,6 +2,7 @@ import { describe, it, vi, beforeEach, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import refair from '../refair.vue'
 import vue from "@vitejs/plugin-vue";
+import axios from "axios";
 
 export default {
   plugins: [
